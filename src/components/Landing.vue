@@ -2,18 +2,28 @@
   <v-container>
     <v-card
       class="mx-auto"
-      max-width=800
+      max-width=850
+      >
+      <v-card-title>workspace CLI</v-card-title>
+      <v-card-text class="text--primary">
+      <v-img
+        class="align-end"
+        src="../assets/workspace-help.png"
+        >
+      </v-img>
+      </v-card-text>
+    </v-card>
+    <v-card
+      class="mx-auto"
+      max-width=850
       >
       <v-card-title>Open workspace UI</v-card-title>
-      <v-card-subtitle class="pb-0">Number 10</v-card-subtitle>
       <v-card-text class="text--primary">
       <v-img
         class="align-end"
         src="../assets/workspace-ui.png"
         >
       </v-img>
-      <div>Whitehaven Beach</div>
-      <div>Whitsunday Island, Whitsunday Islands</div>
       <v-img
         class="align-end"
         src="../assets/workspace-ui-html.png"
