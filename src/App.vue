@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="MultiRepo-Workspace logo" src="./assets/logo.png">
+    <Landing msg="MultiRepo Workspace"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Landing from './components/Landing.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Landing
   }
 }
 </script>
